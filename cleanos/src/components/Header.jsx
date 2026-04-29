@@ -72,7 +72,7 @@ export default function Header() {
             fontSize: 12, fontWeight: 700, color: 'white',
           }}>AM</div>
           <div style={{ display: 'flex', flexDirection: 'column' }}>
-            <span style={{ fontSize: 12, fontWeight: 600, color: 'var(--text-h)', lineHeight: 1.2 }}>Agarwal Ji</span>
+            <span style={{ fontSize: 12, fontWeight: 600, color: 'var(--text-h)', lineHeight: 1.2 }}>Ram Ji</span>
             <span style={{ fontSize: 10, color: 'var(--text-muted)' }}>Admin</span>
           </div>
           <ChevronDown size={13} style={{ color: 'var(--text-muted)' }} />

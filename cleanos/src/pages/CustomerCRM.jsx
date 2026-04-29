@@ -38,7 +38,7 @@ function CustomerRow({ customer, onSelect, selected }) {
         </div>
         <div style={{ display: 'flex', alignItems: 'center', gap: 8, fontSize: 11 }}>
           <span style={{ color: 'var(--text-muted)' }}>{customer.phone}</span>
-          <span className={`badge seg-${customer.segment.replace(' ','-')}`} style={{ fontSize: 10 }}>{customer.segment}</span>
+          <span className={`badge seg-${customer.segment.replace(' ', '-')}`} style={{ fontSize: 10 }}>{customer.segment}</span>
         </div>
       </div>
     </div>
@@ -232,7 +232,7 @@ export default function CustomerCRM() {
               <div style={{ fontSize: 11, color: 'var(--primary)', fontWeight: 700, marginBottom: 8 }}>🤖 AI-Generated Message</div>
               <textarea style={{ width: '100%', background: 'transparent', border: 'none', color: 'var(--text-body)', fontSize: 13, resize: 'none', outline: 'none', lineHeight: 1.6, fontFamily: 'inherit' }}
                 rows={6}
-                defaultValue={`Namaste! 🙏\n\nWe miss you at Agarwal Laundry! It's been a while since your last visit.\n\n✨ Special offer just for you: Get 20% off your next order!\nValid for the next 7 days.\n\nCall us: 9876543210\n\n— Team CleanOS`} />
+                defaultValue={`Namaste! 🙏\n\nWe miss you at Ram Laundry! It's been a while since your last visit.\n\n✨ Special offer just for you: Get 20% off your next order!\nValid for the next 7 days.\n\nCall us: 9876543210\n\n— Team CleanOS`} />
             </div>
             <div style={{ display: 'flex', gap: 10 }}>
               <button className="btn-secondary" style={{ flex: 1, justifyContent: 'center' }} onClick={() => setCampaignOpen(false)}>Cancel</button>

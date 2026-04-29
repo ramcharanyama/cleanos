@@ -58,10 +58,10 @@ export default function Settings() {
         <div className="card" style={{ padding: 28 }}>
           <div style={{ display: 'grid', gridTemplateColumns: '1fr 1fr', gap: 20 }}>
             {[
-              { label: 'Store Name', val: 'Agarwal Premium Laundry' },
-              { label: 'Owner Name', val: 'Ramesh Agarwal' },
+              { label: 'Store Name', val: 'Ram Premium Laundry' },
+              { label: 'Owner Name', val: 'Ram Charan' },
               { label: 'Phone', val: '9876543210' },
-              { label: 'Email', val: 'agarwal.laundry@gmail.com' },
+              { label: 'Email', val: 'ram.laundry@gmail.com' },
               { label: 'Address', val: 'Shop 14, Connaught Place, New Delhi' },
               { label: 'GST Number', val: '07AABCU9603R1ZX' },
             ].map(f => (
@@ -124,8 +124,8 @@ export default function Settings() {
           </div>
           {[
             { key: 'whatsapp', icon: '💬', label: 'WhatsApp', desc: 'Send order updates via WhatsApp' },
-            { key: 'sms',      icon: '📱', label: 'SMS',       desc: 'SMS for pickup notifications' },
-            { key: 'email',    icon: '📧', label: 'Email',     desc: 'Order receipts via email' },
+            { key: 'sms', icon: '📱', label: 'SMS', desc: 'SMS for pickup notifications' },
+            { key: 'email', icon: '📧', label: 'Email', desc: 'Order receipts via email' },
           ].map(n => (
             <div key={n.key} style={{ display: 'flex', justifyContent: 'space-between', alignItems: 'center', padding: '16px 0', borderBottom: '1px solid var(--border)' }}>
               <div style={{ display: 'flex', gap: 12, alignItems: 'center' }}>
@@ -173,7 +173,7 @@ export default function Settings() {
           {/* Preview */}
           <div className="card" style={{ padding: 20, fontFamily: 'Courier New, monospace', fontSize: 11, color: '#111' }}>
             <div style={{ textAlign: 'center', marginBottom: 10 }}>
-              <strong style={{ fontSize: 13 }}>AGARWAL PREMIUM LAUNDRY</strong><br />
+              <strong style={{ fontSize: 13 }}>RAM PREMIUM LAUNDRY</strong><br />
               <span style={{ fontSize: 9 }}>Premium Laundry & Dry Cleaning</span><br />
               Connaught Place, New Delhi<br />
               GST: 07AABCU9603R1ZX
@@ -232,12 +232,12 @@ export default function Settings() {
             <span style={{ fontWeight: 700, fontSize: 15 }}>AI Feature Preferences</span>
           </div>
           {[
-            { key: 'upsell',        label: 'Smart Upsell Engine',       desc: 'Suggest add-ons during order creation' },
-            { key: 'churnAlert',    label: 'Customer Churn Alerts',     desc: 'Flag dormant customers automatically' },
-            { key: 'dailyBriefing', label: 'Daily Morning Briefing',    desc: 'AI-generated store summary each morning' },
-            { key: 'dynamicPricing',label: 'Dynamic Pricing Suggestions',desc: 'Suggest express surcharge during peak hours' },
-            { key: 'autoTag',       label: 'Auto Order Tagging',        desc: 'AI assigns priority tags to new orders' },
-            { key: 'receiptNotes',  label: 'AI Care Instructions',      desc: 'Auto-generate garment care notes on receipts' },
+            { key: 'upsell', label: 'Smart Upsell Engine', desc: 'Suggest add-ons during order creation' },
+            { key: 'churnAlert', label: 'Customer Churn Alerts', desc: 'Flag dormant customers automatically' },
+            { key: 'dailyBriefing', label: 'Daily Morning Briefing', desc: 'AI-generated store summary each morning' },
+            { key: 'dynamicPricing', label: 'Dynamic Pricing Suggestions', desc: 'Suggest express surcharge during peak hours' },
+            { key: 'autoTag', label: 'Auto Order Tagging', desc: 'AI assigns priority tags to new orders' },
+            { key: 'receiptNotes', label: 'AI Care Instructions', desc: 'Auto-generate garment care notes on receipts' },
           ].map(a => (
             <div key={a.key} style={{ display: 'flex', justifyContent: 'space-between', alignItems: 'center', padding: '16px 0', borderBottom: '1px solid var(--border)' }}>
               <div>
